@@ -1,0 +1,33 @@
+/* src/components/NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .categories {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .categories li a:hover {
+    color: #007bff;
+  }
+  
+  
